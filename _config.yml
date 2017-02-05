@@ -27,3 +27,4 @@ markdown: kramdown
 theme: minima
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "vendor", "Gemfile", "Gemfile.lock", "bundle", ".bundle"]
 
+future: true # allow posts in the future (used for upcoming meetings)
