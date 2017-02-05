@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Minnesota Protests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+	</head>
+	<body>
+    <h2>{{ page.start | date: "%b %e" }} - {{ page.title }}</h2>
+    <p>
+      {{ page.start | date: "%B %-d, %Y" }}<br />
+      {{ page.start | date: "%r" }} - {{ page.end | date: "%r" }}<br />
+      <a href="https://www.google.com/maps/place/{{ page.location }}">{{ page.location }}</a><br />
+      <a href="{{ page.external_url}}">Event Page</a>
+    </p>
+    <p>
+      {{ page.content }}
+    </p>
+	</body>
+</html>
