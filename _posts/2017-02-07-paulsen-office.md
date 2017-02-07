@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "7 years without a Town Hall Protest"
+date: 2017-02-07 15:00
 start: 2017-02-07 15:00
 end: 2017-02-07 16:00
 categories: rally
